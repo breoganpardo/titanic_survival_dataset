@@ -4,6 +4,8 @@ Created on Mon Mar  1 20:06:42 2021
 
 @author: breog
 """
+#https://www.kaggle.com/mnassrib/titanic-logistic-regression-with-python
+
 #IMPORTS
 
 #Standard
