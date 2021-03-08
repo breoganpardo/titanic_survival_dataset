@@ -1,0 +1,7 @@
+def calculate_grid_format (shape,max_width=980,plot_width=350):
+    df_rows,df_cols=shape[0],shape[1]
+    number_cols=math.floor(max_width/plot_width)
+    number_rows=math.ceil(df_cols/number_cols)
+    
+    return number_cols,number_rows
+
