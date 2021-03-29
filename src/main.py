@@ -19,3 +19,7 @@ test_name="test.csv"
 
 train_df=pd.read_csv(input_path+train_name)
 test_df=pd.read_csv(input_path+test_name)
+
+
+#Transform categorical into dummies
+pd.get_dummies(train_df,columns=['Sex','Embarked','Pclass'])
